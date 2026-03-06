@@ -1,0 +1,28 @@
+name: Backup Kimi Website
+
+on:
+  schedule:
+    - cron: "*/45 * * * *"  # Every 45 minutes
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Download Kimi website
+        run: |
+          wget --mirror --convert-links --adjust-extension --page-requisites --no-parent --domains=2o5sv4l6rj4fm.ok.kimi.link --timeout=30 https://2o5sv4l6rj4fm.ok.kimi.link/
+          rm -rf index.html assets images 2>/dev/null || true
+          mv 2o5sv4l6rj4fm.ok.kimi.link/* .
+          rm -rf 2o5sv4l6rj4fm.ok.kimi.link
+      
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-backup from Kimi [$(date +'%H:%M')]"
