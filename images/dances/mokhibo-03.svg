@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#141E3C" />
+      <stop offset="100%" stop-color="#0B0B0D" />
+    </linearGradient>
+  </defs>
+  <rect width="480" height="600" fill="url(#g3)" />
+
+  <!-- subtle grain -->
+  <rect width="480" height="600" fill="#000" opacity="0.08" />
+
+  <!-- motif -->
+  <g><rect x="130" y="330" width="220" height="8" fill="#5BA0D6" opacity="0.35" /><rect x="130" y="348" width="220" height="8" fill="#5BA0D6" opacity="0.6" /><rect x="130" y="366" width="220" height="8" fill="#5BA0D6" opacity="0.35" /><rect x="130" y="384" width="220" height="8" fill="#5BA0D6" opacity="0.6" /><rect x="130" y="402" width="220" height="8" fill="#5BA0D6" opacity="0.35" /><rect x="130" y="420" width="220" height="8" fill="#5BA0D6" opacity="0.6" /><rect x="130" y="438" width="220" height="8" fill="#5BA0D6" opacity="0.35" /><rect x="130" y="456" width="220" height="8" fill="#5BA0D6" opacity="0.6" /></g>
+
+  <!-- accent bar -->
+  <rect x="40" y="60" width="40" height="3" fill="#5BA0D6" />
+
+  <!-- top eyebrow -->
+  <text x="40" y="52" font-family="'Space Mono', 'Courier New', monospace" font-size="10" fill="#5BA0D6" letter-spacing="2">
+    BASOTHO · LESOTHO HIGHLANDS
+  </text>
+
+  <!-- huge dance name -->
+  <text x="40" y="118" font-family="Montserrat, 'Arial Black', sans-serif" font-weight="900" font-size="48" fill="#F4F1EC" letter-spacing="1">
+    MOKHIBO
+  </text>
+
+  <!-- caption block at bottom -->
+  <rect x="0" y="510" width="480" height="90" fill="#0B0B0D" opacity="0.75" />
+  <text x="40" y="545" font-family="Montserrat, sans-serif" font-weight="700" font-size="18" fill="#F4F1EC">
+    Initiation songs
+  </text>
+  <text x="40" y="573" font-family="Inter, sans-serif" font-size="13" fill="#F4F1EC" opacity="0.7">
+    Young women. Women elders.
+  </text>
+  <text x="440" y="573" font-family="'Space Mono', monospace" font-size="10" fill="#5BA0D6" text-anchor="end" letter-spacing="1">
+    03 / 04
+  </text>
+</svg>

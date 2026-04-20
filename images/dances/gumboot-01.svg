@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A1A1A" />
+      <stop offset="100%" stop-color="#0B0B0D" />
+    </linearGradient>
+  </defs>
+  <rect width="480" height="600" fill="url(#g1)" />
+
+  <!-- subtle grain -->
+  <rect width="480" height="600" fill="#000" opacity="0.08" />
+
+  <!-- motif -->
+  
+        <g opacity="0.45">
+          <path d="M 200 320 L 230 320 L 230 440 L 300 440 L 300 490 L 200 490 Z" fill="#C6C6C6" />
+        </g>
+
+  <!-- accent bar -->
+  <rect x="40" y="60" width="40" height="3" fill="#C6C6C6" />
+
+  <!-- top eyebrow -->
+  <text x="40" y="52" font-family="'Space Mono', 'Courier New', monospace" font-size="10" fill="#C6C6C6" letter-spacing="2">
+    MINEWORKERS · ISICATHULO
+  </text>
+
+  <!-- huge dance name -->
+  <text x="40" y="118" font-family="Montserrat, 'Arial Black', sans-serif" font-weight="900" font-size="48" fill="#F4F1EC" letter-spacing="1">
+    GUMBOOT
+  </text>
+
+  <!-- caption block at bottom -->
+  <rect x="0" y="510" width="480" height="90" fill="#0B0B0D" opacity="0.75" />
+  <text x="40" y="545" font-family="Montserrat, sans-serif" font-weight="700" font-size="18" fill="#F4F1EC">
+    Wellington boots
+  </text>
+  <text x="40" y="573" font-family="Inter, sans-serif" font-size="13" fill="#F4F1EC" opacity="0.7">
+    Percussion tool. Identity mark.
+  </text>
+  <text x="440" y="573" font-family="'Space Mono', monospace" font-size="10" fill="#C6C6C6" text-anchor="end" letter-spacing="1">
+    01 / 04
+  </text>
+</svg>
